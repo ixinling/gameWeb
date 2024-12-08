@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script type="module" crossorigin src="/assets/index-BroP4lPB.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-sjTCA8ED.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-gamepad"></i>Games Hub</h1>
+        </header>
+        
+        <div class="games-grid">
+            <div class="game-card" data-game="snake">
+                <div class="game-icon">
+                    <i class="fas fa-snake"></i>
+                </div>
+                <h3>Snake Game</h3>
+                <p>Classic snake game with modern graphics</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            
+            <div class="game-card" data-game="tetris">
+                <div class="game-icon">
+                    <i class="fas fa-th-large"></i>
+                </div>
+                <h3>Tetris</h3>
+                <p>The timeless puzzle game</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            
+            <div class="game-card" data-game="memory">
+                <div class="game-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Memory Match</h3>
+                <p>Test your memory skills</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            
+            <div class="game-card" data-game="puzzle">
+                <div class="game-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>Sliding Puzzle</h3>
+                <p>Arrange the pieces to complete the image</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+        </div>
+
+        <div id="game-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 id="modal-title">Game Title</h2>
+                <div id="game-container"></div>
+                <div class="game-controls">
+                    <button id="start-game">Start Game</button>
+                    <button id="restart-game">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
